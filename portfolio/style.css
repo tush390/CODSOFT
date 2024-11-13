@@ -1,0 +1,145 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    font-style: italic;
+    color: #bbb;
+}
+
+/* About Section */
+#about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+#about .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.bio h2 {
+    margin-bottom: 10px;
+}
+
+.bio p {
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #e9ecef;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#skills h2 {
+    margin-bottom: 20px;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills ul li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+/* Projects Section */
+#projects {
+    padding: 40px 0;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.project img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.project-description h3 {
+    margin: 0 0 10px;
+}
+
+.project-description p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Resume Section */
+#resume {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#resume a {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #e9ecef;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#contact p {
+    font-size: 1.1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
